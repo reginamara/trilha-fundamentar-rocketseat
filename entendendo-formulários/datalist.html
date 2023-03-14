@@ -1,0 +1,32 @@
+<!--
+    # <datalist>
+    
+    - Lista de Valores como sugestão a uma tag <input>
+    - Valores sugestivos e não obrigatótorios
+    - Usuários poderão selecionar um dos valores, ou colocar um valor diferente da sugestão
+
+    ## list 
+        - Recebe como valor o id de um <datalist> residente no mesmo documento
+
+    * Tipos de input suportados *
+            - text, url, tel, email, date, month, week, time, datetime-local, number, range e color
+
+        * Valores de datalist que não são compativeis com o tipo de <input> não serão apresentados
+    
+    * Tipos de input  não suportados (conforme especificação)
+            - hidden, password, checkbox, radio, file ou qualquer tipo de button
+
+
+* User agent - Impotante  verificar a compatibilidade com o browser https://caniuse.com 
+
+    
+-->
+<input type="text" list="frutsdata" placeholder="Escolha uma fruta"/>
+
+<datalist id="frutsdata">
+    <option>apple</option>
+    <option>banana</option>
+    <option>mango</option>
+    <option>orange</option>
+    <option>cherry</option>
+</datalist>
