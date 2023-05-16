@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../CONDICIONAIS-E-CONTROLE-DE-FLUXO"
+		},
+		{
+			"path": "../EXPRESSOES-E-OPERADORES"
+		},
+		{
+			"path": "../ESTRUTURA-DE-REPETICAO"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PRATICANDO-EXERCICIOS"
+	}
+}
